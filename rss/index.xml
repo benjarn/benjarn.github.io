@@ -1,4 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[iTkraft]]></title><description><![CDATA[lorm ipsum]]></description><link>http://benjarn.github.io/</link><generator>Ghost</generator><lastBuildDate>Sun, 03 May 2015 11:33:11 GMT</lastBuildDate><atom:link href="http://benjarn.github.io/rss/index.xml" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Hello world\n YOLO]]></title><description><![CDATA[<h1 id="hello-world-n-yolo">Hello world\n YOLO</h1>
-]]></description><link>/2014/02/30/hello-world.html</link><guid isPermaLink="true">/2014/02/30/hello-world.html</guid><dc:creator><![CDATA[Marx]]></dc:creator><pubDate>Sun, 02 Mar 2014 00:00:00 GMT</pubDate></item><item><title><![CDATA[Hello world\n YOLO]]></title><description><![CDATA[<h1 id="hello-world-n-yolo">Hello world\n YOLO</h1>
-]]></description><link>/2014/01/30/hello-world.html</link><guid isPermaLink="true">/2014/01/30/hello-world.html</guid><dc:creator><![CDATA[Marx]]></dc:creator><pubDate>Thu, 30 Jan 2014 00:00:00 GMT</pubDate></item></channel></rss>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[iTkraft]]></title><description><![CDATA[lorm ipsum]]></description><link>http://benjarn.github.io/</link><generator>Ghost</generator><lastBuildDate>Sun, 03 May 2015 11:46:44 GMT</lastBuildDate><atom:link href="http://benjarn.github.io/rss/index.xml" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Page title]]></title><description><![CDATA[<h1 id="an-h1-header">An h1 header</h1>
+<p>Paragraphs are separated by a blank line.</p>
+<p>2nd paragraph. <em>Italic</em>, <strong>bold</strong>, and <code>monospace</code>. Itemized lists
+look like:</p>
+<ul>
+<li>this one</li>
+<li>that one</li>
+<li>the other one</li>
+</ul>
+<p>Note that --- not considering the asterisk --- the actual text
+content starts at 4-columns in.</p>
+<p>&gt; Block quotes are
+&gt; written like so.
+&gt;
+&gt; They can span multiple paragraphs,
+&gt; if you like.</p>
+<p>Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., &quot;it&#39;s all
+in chapters 12--14&quot;). Three dots ... will be converted to an ellipsis.
+Unicode is supported. ☺</p>
+<h2 id="an-h2-header">An h2 header</h2>
+<p>Here&#39;s a numbered list:</p>
+<ol>
+<li>first item</li>
+<li>second item</li>
+<li>third item</li>
+</ol>
+<p>Note again how the actual text starts at 4 columns in (4 characters
+from the left side). Here&#39;s a code sample:</p>
+<pre class="hljs"><code># <span class="hljs-keyword">Let</span> <span class="hljs-keyword">me</span> re-iterate ...
+<span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> <span class="hljs-number">1</span> .. <span class="hljs-number">10</span> { <span class="hljs-keyword">do</span>-something(i) }</code></pre><p>As you probably guessed, indented 4 spaces. By the way, instead of
+indenting the block, you can use delimited blocks, if you like:</p>
+<pre class="hljs"><code><span class="hljs-class"><span class="hljs-keyword">define</span> <span class="hljs-title">foobar</span></span>() {
+    print <span class="hljs-subst">&amp;</span>quot;Welcome <span class="hljs-keyword">to</span> flavor country<span class="hljs-subst">!&amp;</span>quot;;
+}</code></pre><p>(which makes copying &amp; pasting easier). You can optionally mark the
+delimited block for Pandoc to syntax highlight it:</p>
+<pre class="hljs"><code>import <span class="hljs-keyword">time</span>
+<span class="hljs-comment"># Quick, count to ten!</span>
+<span class="hljs-keyword">for</span> i in range(<span class="hljs-number">10</span>):
+    <span class="hljs-comment"># (but not <em>too</em> quick)</span>
+    <span class="hljs-keyword">time</span>.<span class="hljs-keyword">sleep</span>(<span class="hljs-number">0</span>.<span class="hljs-number">5</span>)
+    <span class="hljs-keyword">print</span> i</code></pre><h3 id="an-h3-header">An h3 header</h3>
+<p>Now a nested list:</p>
+<ol>
+<li><p>First, get these ingredients:</p>
+<ul>
+<li>carrots</li>
+<li>celery</li>
+<li>lentils</li>
+</ul>
+</li>
+<li><p>Boil some water.</p>
+</li>
+<li><p>Dump everything in the pot and follow
+this algorithm:</p>
+<pre class="hljs"><code>find wooden spoon
+uncover pot
+stir
+cover pot
+balance wooden spoon precariously <span class="hljs-keyword">on</span> pot handle
+wait <span class="hljs-number">10</span> minutes
+<span class="hljs-keyword">goto</span> first <span class="hljs-keyword">step</span> (<span class="hljs-keyword">or</span> shut <span class="hljs-keyword">off</span> burner <span class="hljs-keyword">when</span> done)</code></pre><p>Do not bump wooden spoon or it will fall.</p>
+</li>
+</ol>
+<p>Notice again how text always lines up on 4-space indents (including
+that last line which continues item 3 above).</p>
+<p>Here&#39;s a link to <a href="http://foo.bar">a website</a>, to a <a href="local-doc.html">local
+doc</a>, and to a <a href="#an-h2-header">section heading in the current
+doc</a>. Here&#39;s a footnote [^1].</p>
+<p>[^1]: Footnote text goes here.</p>
+<p>Tables can look like this:</p>
+<p>size  material      color</p>
+<hr>
+<p>9     leather       brown
+10    hemp canvas   natural
+11    glass         transparent</p>
+<p>Table: Shoes, their sizes, and what they&#39;re made of</p>
+<p>(The above is the caption for the table.) Pandoc also supports
+multi-line tables:</p>
+<hr>
+<p>keyword   text</p>
+<hr>
+<p>red       Sunsets, apples, and
+          other red or reddish
+          things.</p>
+<p>green     Leaves, grass, frogs
+          and other things it&#39;s
+          not easy being.</p>
+<hr>
+<p>A horizontal rule follows.</p>
+<hr>
+<p>Here&#39;s a definition list:</p>
+<p>apples
+  : Good for making applesauce.
+oranges
+  : Citrus!
+tomatoes
+  : There&#39;s no &quot;e&quot; in tomatoe.</p>
+<p>Again, text is indented 4 spaces. (Put a blank line between each
+term/definition pair to spread things out more.)</p>
+<p>Here&#39;s a &quot;line block&quot;:</p>
+<p>| Line one
+|   Line too
+| Line tree</p>
+<p>and images can be specified like so:</p>
+<p><img src="example-image.jpg &quot;An exemplary image&quot;" alt="example image"></p>
+<p>Inline math equations go in like so: $\omega = d\phi / dt$. Display
+math should get its own line and be put in in double-dollarsigns:</p>
+<p>$$I = \int \rho R^{2} dV$$</p>
+<p>And note that you can backslash-escape any punctuation characters
+which you wish to be displayed literally, ex.: `foo`, *bar*, etc.</p>
+]]></description><link>/2015/05/03/hello-world.html</link><guid isPermaLink="true">/2015/05/03/hello-world.html</guid><category><![CDATA[foo]]></category><category><![CDATA[bar]]></category><dc:creator><![CDATA[Marx]]></dc:creator><pubDate>Sun, 03 May 2015 13:41:00 GMT</pubDate></item></channel></rss>
