@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="marcusolsson.org">
     <meta name="author" content="Marcus Olsson">
+    <meta name="KEYWORDS" content="Personal page of Marcus Olsson's buisness" />
+    <meta name="URL" content="marcusolsson.org" />
+    <meta name="ALIAS" content="http://marcusolsson.org/" />
+    <meta name="LANGUAGE" content="swedish" />
+    <meta name="COPYRIGHT" content="Marcus_">
     <link rel="shortcut icon" href="favicon.ico">
+
 
     <title>Marcus|Olsson</title>
 
@@ -13,7 +19,7 @@
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" >
     <link href="css/jumbotron-narrow.css" rel="stylesheet">
 
-    <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -40,6 +46,18 @@
                                })();
     </script>
     <!-- End Piwik Code -->
+<style type="text/css">
+.body_foreground { color: #AAAAAA; }
+.body_background { background-color: #000000; }
+.body_foreground > .bold,.bold > .body_foreground, body.body_foreground > pre > .bold { color: #FFFFFF; font-weight: normal; }
+.inv_foreground { color: #000000; }
+.inv_background { background-color: #AAAAAA; }
+.ansi1 { font-weight: bold; }
+.ansi34 { color: #0000aa; }
+.inv34 { background-color: #0000aa; }
+.ansi37 { color: black; }
+.inv37 { background-color: #F5F1DE; }
+</style>
 
   </head>
 
@@ -48,8 +66,9 @@
     <div class="container">
       <div class="header">
         <ul class="nav nav-pills pull-right">
-          <li ><a href="index2.html">Hårdvara</a></li>
-          <li class="active"><a href="#">Hem</a></li>
+          <li class="active"><a href="http://marcusolsson.org">Hem</a></li>
+
+
 <!--          <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li> -->
         </ul>
@@ -61,32 +80,18 @@
       </div>
 
       <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>Om</h4>
-          <p style="font-family: 'Inconsolata', sans-serif;">Sidan &auml;r just nu under uppbyggnad men h&auml;r kommer antagligen komma upp lite mer under detta &aring;ret eller om ett par...</p>
-
-          <h4>Projekt</h4>
-          <p>Chrome plugin:<br>
-          Pixlr-RightClick => <a href=projekt/pixlr-plugin.crx>crx download</a></p>
-
-          <h4>Bilder</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-        </div>
-
-        <div class="col-lg-6">
-          <h4>Git</h4>
-          <p>Min config, archlinux, bspwm, zsh, vim, ncmpcpp med mera => <a href="https://github.com/benjarn/dotfiles">dotfiles</a></p>
-
-          <h4>Tankar</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-          <h4>Links</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-        </div>
+        <div class="col-lg-12">
+Placeholder for Marcus_
+</div>
       </div>
 
       <div class="footer">
-        <p>&copy; Marcus 2013</p>
+        <div class="col-lg-6">
+          <p>Owner: Marcus_ </p>
+        </div>
+        <div class="col-lg-6">
+          <p align=right>Last Change: 2015</p>
+        </div>
       </div>
 
     </div> <!-- /container -->
