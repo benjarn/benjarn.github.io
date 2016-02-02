@@ -55,7 +55,9 @@
       </div>
 
       <div class="well">
-          <img class="img-thumbnail" src="bilder/jumbo.png">
+        <a href="#" data-toggle="popover" data-trigger="focus" data-content='<p>Logo: <br><a href="http://www.logodust.com">Logodust</a><a href="https://creativecommons.org/licenses/by/4.0/">(CC BY 4.0)</a></p>'>
+          <img class="img-thumbnail"  src="bilder/jumbo.png">
+        </a>
       </div>
 
       <div class="row marketing">
@@ -70,7 +72,7 @@ Placeholder for Marcus_
         </div>
         <div class="col-lg-6">
           <p align=right>Last Change: 2016</p>
-	  <p align=right>Logo: <a href="http://www.logodust.com">Logodust</a><a href="https://creativecommons.org/licenses/by/4.0/">(CC BY 4.0)</a></p>
+
         </div>
       </div>
 
@@ -80,6 +82,11 @@ Placeholder for Marcus_
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    
     <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -91,7 +98,13 @@ Placeholder for Marcus_
   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
-
+  
+    $(function () {
+      $('[data-toggle="popover"]').popover({
+    html:true//,
+    //content:'<a href="#">This is link</a>'
+})
+    })
     </script>
   </body>
 </html>
